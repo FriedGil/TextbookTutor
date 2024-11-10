@@ -30,11 +30,11 @@
                             <ul class="bg-base-100 rounded-t-none p-2">
                                 <li><a>Settings</a></li>
                                 <li>
-                                    <a on:click={()=>{delay('/auth/signin')}}>
+<!--                                    <a on:click={()=>{delay('/auth/signin')}}>-->
                                         <SignOut>
                                             <span slot="submitButton">Log Out</span>
                                         </SignOut>
-                                    </a>
+<!--                                    </a>-->
                                 </li>
                             </ul>
                     </details>
